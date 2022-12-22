@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2218ac855a.js" crossorigin="anonymous"></script>
+    <style>
+        #header {
+            background-color:bisque;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Rubik', sans-serif;
+        }
+        #nameAndTitle{
+            background-color: white;
+            width: 500px; /*tamanho*/
+            margin: 0 auto;
+            text-align: center;/*alinhamento de texto*/
+        }
+        #nameAndTitle h1, h2{
+            margin: 0;
+        }
+        #contact{
+            list-style-type: none;/*remove marcadores de lista*/
+        }
+        #contact i{
+            width: 30px;
+            color: bisque ;
+        }
+        #container{
+            display: grid;
+            grid-template-columns: 30% auto ;
+            grid-column-gap: 20px ;
+        }
+        #sidebar, #content{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .card h3 {
+             font-family: 'Rubik', sans-serif;
+        }
+        .card {
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid grey;
+            border-radius: 15px ;
+            padding:20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nameAndTitle">
+            <h1>Josiane Fernandes</h1>
+            <h2>Analista de Qualidade de Software</h2>
+        </div>
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <div class="card">
+                <h3>Contato</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i>  josyfernandes19@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> (61) 99881-7877</li>
+                    <li><i class="fa-solid fa-location-dot"></i>  Formosa, GO</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Selenium</li>
+                    <li>Postman</li>
+                    <li>MySQL</li>
+                    <li>Scrum</li>
+                    <Li>Lógica de Programação e Algoritmos</Li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Formação Acadêmica</h3>
+                <ul>
+                    <li>Graduada em Ciências Biológicas</li>
+                    <li>Estudante em Análise de Qualidade de Software</li>
+                    
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Links</h3>
+                <ul>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/josiane-de-sousa-santos-fernandes-b8b107211/">Linkedin</a></li>
+                    <li><a target="_blank" href="https://github.com/JosyFernandes25">GitHub</a></li>
+                    
+                </ul>
+            </div>   
+        </div>
+        <div id="content">
+            <div class="card">
+                <h3>Sobre Mim</h3>
+                <p>Graduada em Ciências Biológicas pelo IFG, atualmente estou em migração de carreira para a área de Qualidade de Software. 
+                    Presto serviços Freelancer para a plataforma Crowdtest. Possuo conhecimentos sobre automação de testes com JAVA/Selenium,
+                     Testes de API com Postman, Banco de dados com MySQL, além de conhecimentos sobre estruturação e estilização de páginas com HTML e CSS. 
+                    Para além, conheço a dinâmica de metodologias ágeis como o SCRUM.</p>
+            </div>
+            <div class="card">
+                <h3> Experiências Profissionais</h3>
+                <p>
+                    <b>Crowdtest - Ago/22 até atualmente</b><Br>
+                     Realizei testes exploratórios Web e Mobile (E2E), realizando report de bugs e melhorias através de escrita Step by Step, evidências em vídeo e prints.   
+                     <ul>
+                        <li>Analista de Qualidade de Software</li>
+                     </ul>
+                    </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
