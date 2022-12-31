@@ -7,5 +7,5 @@
  
 **👩‍⚖️ Hierarquia de componentes da escrita e sua organização dentro do body em div's, listas e paráfrafos.** 
 
-**🆔Identificação de elementos com marcadores de classes e id**
+**🆔Identificação de elementos com marcadores: classes e id's.**
 
